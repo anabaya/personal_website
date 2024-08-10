@@ -1,0 +1,37 @@
+{
+  "name": "personal_website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "biome:format": "biome format ./src",
+    "biome:lint": "biome lint ./src",
+    "biome:check": "biome check ./src",
+    "biome:check:apply": "biome check --apply ./src",
+    "biome:check:apply-unsafe": "biome check --apply-unsafe ./src",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "antd": "^5.20.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^22.2.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}
