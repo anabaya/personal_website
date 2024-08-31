@@ -1,5 +1,5 @@
-import { Col, Row } from "antd";
 import profile from "@/assets/profile.jpeg";
+import { Col, Row } from "antd";
 
 const Profile = () => {
   return (

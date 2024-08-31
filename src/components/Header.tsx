@@ -1,12 +1,12 @@
+import cv from "@/assets/CV_Anabel_Delaporte.pdf";
 import {
-  SmileFilled,
-  ToolFilled,
+  DownloadOutlined,
   ExperimentFilled,
   MailFilled,
-  DownloadOutlined,
+  SmileFilled,
+  ToolFilled,
 } from "@ant-design/icons";
-import { Button, Layout, Menu, Typography } from "antd";
-import cv from "@/assets/CV_Anabel_Delaporte.pdf";
+import { Button, Layout, Menu } from "antd";
 
 const Header = () => {
   const menuItems = [

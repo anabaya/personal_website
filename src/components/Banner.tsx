@@ -1,6 +1,6 @@
+import banner from "@/assets/banner.jpg";
 import { Col, Row, Space } from "antd";
 import { Typography } from "antd";
-import banner from "@/assets/banner.jpg";
 
 const { Title } = Typography;
 
