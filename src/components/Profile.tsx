@@ -3,7 +3,7 @@ import { Col, Row } from "antd";
 
 const Profile = () => {
   return (
-    <Row>
+    <Row className="mb-36">
       <Col span={24} className="border">
         <div className="relative w-64 mx-auto">
           <div

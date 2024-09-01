@@ -1,7 +1,15 @@
-import { Layout } from "antd";
+import { Card, Col, Layout, Row, Typography } from "antd";
 import "antd/dist/reset.css"; // Importation des styles d'Ant Design
 import "./tailwind.css";
-import { Banner, Header, Profile } from "./components";
+import {
+  Banner,
+  Header,
+  Profile,
+  AboutMe,
+  Skills,
+  Projects,
+  Contact,
+} from "./components";
 
 const { Content, Footer } = Layout;
 
@@ -9,13 +17,16 @@ function App() {
   return (
     <Layout className="min-h-screen relative">
       <Header />
-      <Content>
+      <Content className="mb-8">
         <Banner />
-        <div className="max-w-7xl mx-auto w-full">
+        <div className="max-w-6xl mx-auto w-full px-8">
           <Profile />
+          <AboutMe />
+          <Skills />
+          <Projects />
+          <Contact />
         </div>
       </Content>
-      <Footer className="max-w-7xl mx-auto w-full">va</Footer>
     </Layout>
   );
 }
