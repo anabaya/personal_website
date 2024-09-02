@@ -1,6 +1,7 @@
-import { Card, Col, Layout, Row, Typography } from "antd";
+import { Card, Col, Layout, Row, ConfigProvider } from "antd";
 import "antd/dist/reset.css"; // Importation des styles d'Ant Design
 import "./tailwind.css";
+import "./styles.css";
 import {
   Banner,
   Header,
@@ -11,23 +12,31 @@ import {
   Contact,
 } from "./components";
 
-const { Content, Footer } = Layout;
+const { Content } = Layout;
 
 function App() {
   return (
-    <Layout className="min-h-screen relative">
-      <Header />
-      <Content className="mb-8">
-        <Banner />
-        <div className="max-w-6xl mx-auto w-full px-8">
-          <Profile />
-          <AboutMe />
-          <Skills />
-          <Projects />
-          <Contact />
-        </div>
-      </Content>
-    </Layout>
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#faad14",
+        },
+      }}
+    >
+      <Layout className="min-h-screen relative">
+        <Header />
+        <Content className="mb-8">
+          <Banner />
+          <div className="max-w-6xl mx-auto w-full px-8">
+            <Profile />
+            <AboutMe />
+            <Skills />
+            <Projects />
+            <Contact />
+          </div>
+        </Content>
+      </Layout>
+    </ConfigProvider>
   );
 }
 

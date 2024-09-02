@@ -1,0 +1,16 @@
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  font-size: inherit;
+  color: black;
+}
+
+.ant-carousel .slick-dots li button{
+background-color: rgb(203 213 225);
+opacity: 0.6
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    background-color: rgb(75 85 99);
+    }
