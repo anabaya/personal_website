@@ -27,7 +27,7 @@ function App() {
         <Header />
         <Content className="mb-8">
           <Banner />
-          <div className="max-w-6xl mx-auto w-full px-8">
+          <div className="max-w-6xl mx-auto w-full px-0 sm:px-8">
             <Profile />
             <AboutMe />
             <Skills />

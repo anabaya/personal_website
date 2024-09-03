@@ -6,15 +6,27 @@ const Skills = () => {
     chart: {
       height: 350,
       type: "treemap",
+      toolbar: {
+        show: false,
+      },
     },
     colors: ["#faad14"],
+    tooltip: {
+      enabled: false,
+    },
   };
   const optionsSoftSkills = {
     chart: {
       height: 350,
       type: "treemap",
+      toolbar: {
+        show: false,
+      },
     },
     colors: ["#0D9488"],
+    tooltip: {
+      enabled: false,
+    },
   };
   const seriesHardSkills = [
     {
