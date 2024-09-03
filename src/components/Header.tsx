@@ -13,7 +13,7 @@ const Header = () => {
     {
       key: 1,
       label: (
-        <a class="text-black hover:text-amber-400" href="#about-me">
+        <a className="text-black hover:text-amber-400" href="#about-me">
           <SmileFilled className="mr-1" />
           Presentation
         </a>
@@ -22,7 +22,7 @@ const Header = () => {
     {
       key: 2,
       label: (
-        <a class="text-black hover:text-amber-400" href="#skills">
+        <a className="text-black hover:text-amber-400" href="#skills">
           <ToolFilled className="mr-1" />
           Competences
         </a>
@@ -31,7 +31,7 @@ const Header = () => {
     {
       key: 3,
       label: (
-        <a class="text-black hover:text-amber-400" href="#projects">
+        <a className="text-black hover:text-amber-400" href="#projects">
           <ExperimentFilled className="mr-1" />
           Projets
         </a>
@@ -40,7 +40,7 @@ const Header = () => {
     {
       key: 4,
       label: (
-        <a class="text-black hover:text-amber-400" href="#contact">
+        <a className="text-black hover:text-amber-400" href="#contact">
           <MailFilled className="mr-1" />
           Contact
         </a>

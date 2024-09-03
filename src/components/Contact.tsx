@@ -1,10 +1,6 @@
-import {
-  DownloadOutlined,
-  GithubFilled,
-  LinkedinFilled,
-  MailFilled,
-} from "@ant-design/icons";
-import { Button, Card, Col, Row, message, Tooltip } from "antd";
+import { GithubFilled, LinkedinFilled, MailFilled } from "@ant-design/icons";
+import { Button, Card, Col, Row, Tooltip, message } from "antd";
+// @ts-ignore
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const buttonStyle = { width: "50px", height: "50px" };

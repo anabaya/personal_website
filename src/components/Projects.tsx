@@ -1,22 +1,13 @@
-import { Card, Col, Row, Typography, Space, Carousel, Image } from "antd";
 import audioCockpitAnalyzer from "@/assets/Audio_Cockpit_Analyzer_Demo.mp4";
 import annotationsBlender from "@/assets/annotations_scene_blender.png";
-import sceneBlender from "@/assets/scene_blender.png";
-import menuSnake from "@/assets/menu-snake.mp4";
 import demoSnake from "@/assets/demo-snake.mp4";
-import React from "react";
+import menuSnake from "@/assets/menu-snake.mp4";
+import sceneBlender from "@/assets/scene_blender.png";
+import { Card, Carousel, Col, Image, Row, Typography } from "antd";
 
-const { Title, Paragraph } = Typography;
-const contentStyle: React.CSSProperties = {
-  margin: 0,
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
+const { Paragraph } = Typography;
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <Row className="mb-8">
       <Col span={24}>
@@ -39,7 +30,7 @@ const Projects: React.FC = () => {
                   place et de visualiser les résultats sous forme d'audios ou
                   d'images.
                 </Paragraph>
-
+                {/* biome-ignore lint/a11y/useMediaCaption: */}
                 <video className="max-w-1xl mx-auto" controls>
                   <source src={audioCockpitAnalyzer} type="video/mp4" />
                 </video>
@@ -65,12 +56,14 @@ const Projects: React.FC = () => {
                   infinite={false}
                   className="bg-gray-100 text-center my-auto"
                 >
-                  <div class="p-6">
+                  <div className="p-6">
+                    {/* biome-ignore lint/a11y/useMediaCaption: */}
                     <video className="max-w-1xl mx-auto" controls>
                       <source src={menuSnake} type="video/mp4" />
                     </video>
                   </div>
-                  <div class="p-6">
+                  <div className="p-6">
+                    {/* biome-ignore lint/a11y/useMediaCaption: */}
                     <video className="max-w-1xl mx-auto" controls>
                       <source src={demoSnake} type="video/mp4" />
                     </video>
@@ -136,10 +129,10 @@ const Projects: React.FC = () => {
                   infinite={false}
                   className="bg-gray-100 text-center my-auto"
                 >
-                  <div class="p-6">
+                  <div className="p-6">
                     <Image src={sceneBlender} className="max-w-xs" />
                   </div>
-                  <div class="p-6">
+                  <div className="p-6">
                     <Image src={annotationsBlender} className="max-w-xs" />
                   </div>
                 </Carousel>

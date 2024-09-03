@@ -1,12 +1,13 @@
 import banner from "@/assets/banner.jpg";
 import { Col, Row, Space } from "antd";
 import { Typography } from "antd";
+import type { CSSProperties } from "react";
 
 const { Title } = Typography;
-const titleStyle = {
+const titleStyle: CSSProperties = {
   color: "white",
-  position: "relative", // Ensure titles are above the background
-  zIndex: 2, // Place titles on top of the background
+  position: "relative",
+  zIndex: 2,
 };
 
 const Banner = () => {

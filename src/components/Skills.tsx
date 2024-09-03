@@ -1,8 +1,9 @@
 import { Card, Col, Row } from "antd";
+import type { ApexOptions } from "apexcharts";
 import Chart from "react-apexcharts";
 
 const Skills = () => {
-  const optionsHardSkills = {
+  const optionsHardSkills: ApexOptions = {
     chart: {
       height: 350,
       type: "treemap",
@@ -15,7 +16,7 @@ const Skills = () => {
       enabled: false,
     },
   };
-  const optionsSoftSkills = {
+  const optionsSoftSkills: ApexOptions = {
     chart: {
       height: 350,
       type: "treemap",
