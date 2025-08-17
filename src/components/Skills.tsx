@@ -39,35 +39,35 @@ const Skills = () => {
         },
         {
           x: "IA",
-          y: 260,
+          y: 150,
         },
         {
           x: "Machine Learning",
-          y: 260,
+          y: 220,
         },
         {
           x: "Pytorch",
-          y: 160,
+          y: 130,
         },
         {
           x: "TensorFlow",
-          y: 160,
+          y: 130,
         },
         {
           x: "Streamlit",
-          y: 200,
+          y: 100,
         },
         {
           x: "Computer Vision",
-          y: 230,
+          y: 200,
         },
         {
           x: "C",
-          y: 70,
+          y: 50,
         },
         {
           x: "SQLite",
-          y: 150,
+          y: 100,
         },
         {
           x: "Git",
@@ -75,11 +75,23 @@ const Skills = () => {
         },
         {
           x: "C++",
-          y: 100,
+          y: 75,
         },
         {
           x: "VHDL",
+          y: 50,
+        },
+        {
+          x: "SQL",
+          y: 150,
+        },
+        {
+          x: "AzureDevops",
           y: 100,
+        },
+        {
+          x: "Informatica MDM/IDQ",
+          y: 150,
         },
       ],
     },
@@ -105,12 +117,20 @@ const Skills = () => {
           y: 100,
         },
         {
-          x: "Entreprenante",
-          y: 150,
-        },
-        {
           x: "Joyeuse",
           y: 350,
+        },
+        {
+          x: "Proactive",
+          y: 250,
+        },
+        {
+          x: "Investie",
+          y: 300,
+        },
+        {
+          x: "Rigoureuse",
+          y: 200,
         },
       ],
     },
